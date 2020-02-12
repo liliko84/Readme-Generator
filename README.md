@@ -1,13 +1,16 @@
 
+
+
+
 # GitHub UserName
-UserName: liliko
-![GitHub image](https://avatars2.githubusercontent.com/u/9150269?v=4)
+UserName: liliko84
+![GitHub image](https://avatars3.githubusercontent.com/u/56461137?v=4)
 ## Info
-Email: [lili@me.com](mailto:lili@me.com)
+Email: [lilikog@yahoo.com](mailto:lilikog@yahoo.com)
 # Readme Generator
 ## Description
-stuff
+This project contains three seperate files (index.questions and generate-markdown.js), where I am using node js and other javascript libraries-inquirer and axios to get API from github and display the information on the page.Question file contains the questions and markdown is basicly displays the style and format of the text and image.
 ## Installation
-
+When I created this file the first thing I did was npm init-y, install inquirer axios, which created package json file.
 ## Usage
 undefined

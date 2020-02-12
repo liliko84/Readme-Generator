@@ -21,7 +21,7 @@ inquirer.prompt(questions).then(responseObj => {
        .then(({ data }) => {
          console.log(data);
       
-      const markdownData = { data, ...responseObj };
+      const markdownData = { data, ...responseObj};
 
       
       const finishedMarkdown = generateMarkdown(markdownData);
