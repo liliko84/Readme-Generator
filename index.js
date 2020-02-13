@@ -27,7 +27,7 @@ inquirer.prompt(questions).then(responseObj => {
       const finishedMarkdown = generateMarkdown(markdownData);
 
       
-      fs.appendFile('README.md', finishedMarkdown, err => {
+      fs.writeFile('README.md', finishedMarkdown, err => {
         if (err) {
           return console.log(err);
         }
