@@ -61,7 +61,13 @@ module.exports = [
       message: 'Usage',
       name: 'usage',
     
-    }
-    ]
+    },
+    {
+    type:"list",
+    message:"license",
+    name:"tech",
+    choices:["ISC","Apache License 2.0","GNU GPLv3"]
+    },
+    ];
 
   
